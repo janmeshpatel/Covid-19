@@ -31,14 +31,122 @@
 			height: 40px;
 			border-radius: 5px;
 		}
-		#cases{
+		#a1{
+			opacity: 0.9;
+
+
+		}
+		#a2{
+			opacity: 0.8;
+
+		}
+		#a3{
+			opacity: 0.9;
+
+
+		}
+		#a4{
 			opacity: 0.8;
 
 		}
 		#header{
 			opacity: 0.6;
+			overflow: hidden;
 		}
+		#div_1{
+			float: left;
+			margin-left: 20px;
+		}
+
+		#div_2{
+			float: right;
+			margin-left: 20px;
+		}
+
+		#div_3{
+			float: left;
+			margin-left: 10px;
+		}
+
+		#div_4{
+			float: right;
+			margin-left: 10px;
+		}
+
+		#img1{
+			width: 350px;
+			height: 296px;
+			opacity: 0.2;
+			transition: opacity 1s;
+		}
+		#img1:hover{
+			opacity: 1;
+		}
+		#img3{
+			width: 350px;
+			height: 296px;
+			opacity: 0.2;
+			transition: opacity 1s;
+		}
+		#img3:hover{
+			opacity: 1;
+		}
+
+
+		#img2{
+			width: 309px;
+			height: 400px;
+			opacity: 0.2;
+			transition: opacity 1s, width 1s,height 1s;
+		}
+		#img2:hover{
+			width: 448px;
+			height: 680px;
+			opacity: 1;
+		}
+
+		#img4{
+			width: 309px;
+			height: 400px;
+			opacity: 0.2;
+			transition: opacity 1s, width 1s,height 1s;
+		}
+		#img4:hover{
+			width: 448px;
+			height: 680px;
+			opacity: 1;
+		}
+
+		#img5{
+			width: 350px;
+			height: 300px;
+			opacity: 0.2;
+			transition: opacity 1s, width 1s,height 1s;
+		}
+		#img5:hover{
+			width: 700px;
+			height: 530px;
+			opacity: 1;
+		}
+
+		#img6{
+			width: 350px;
+			height: 300px;
+			opacity: 0.2;
+			transition: opacity 1s, width 1s,height 1s;
+		}
+		#img6:hover{
+			width: 700px;
+			height: 530px;
+			opacity: 1;
+		}
+
+
+
 	</style>
+
+
+
 
 </head>
 
@@ -50,13 +158,14 @@
 	<label style="font-size: 30px;">COVID-19</label>
 
 
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<a href="#cases" class="smooth"><input type="button" id="b" value="Cases"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<a href="#death" class="smooth"><input type="button" id="b" value="Death"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<a href="#recovered" class="smooth"><input type="button" id="b" value="Recovered"></a>
+	<a href="#a1" class="smooth"><input type="button" id="b" value="Cases"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="#a2" class="smooth"><input type="button" id="b" value="Death"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="#a3" class="smooth"><input type="button" id="b" value="Recovered"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="#a4" class="smooth"><input type="button" id="b" value="Latest News"></a>
 	<br>
 	<br>
 </div>
@@ -73,7 +182,7 @@
 						<li>
 							<b><span>5,639,951</span><br /></b>
 						</li>
-							<h3 style="opacity: 0.7">Cases in all over World</h3>
+							<h3 style="opacity: 0.7;">Cases in all over World</h3>
 
 					</ul>
 
@@ -83,91 +192,110 @@
 		<div class="row">
 			<div class="col-xs-12 text-center">
 				<div class="down">
-					<a href="#cases" class="smooth"><i class="fa fa-angle-down fa-3x"></i></a>
+					<a href="#a1" class="smooth"><i class="fa fa-angle-down fa-3x"></i></a>
 				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="about" id="cases">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-10 text-center">
-				<div class="about-content">
-					<h2>About Piuma, the best Coming Soon Theme</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-				</div>				
-			</div>
-		</div>
-	</div>
-</div>
-<div class="features">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 text-center">
-				<div class="features-content">
-					<header>
-						<h2>Features</h2>
-					</header>
-					<div class="grid clearfix">
-						<div class="col-sm-4 text-center">
-							<i class="fa fa-mobile fa-5x"></i>
-							<b>Fully Responsive</b>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
-						<div class="col-sm-4 text-center">
-							<i class="fa fa-clock-o fa-4x"></i>
-							<b>Countdown Clock</b>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
-						<div class="col-sm-4 text-center">
-							<i class="fa fa-picture-o fa-4x"></i>
-							<b>Hero Image</b>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
-					</div>
-				</div>				
 			</div>
 		</div>
 	</div>
 </div>
 
-<div class="subscribe" id="death">
+<!-- Primary Page Layout 1
+	================================================== -->
+<div class="about" id="a1">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-10 text-center">
+				<br>
+				<h3 style="opacity: 0.7;color: darkgreen" >Covid-19 Cases</h3><br>
+
+				<div id="div_1">
+						<img id="img1" src="images/ac.png"><br><br>
+						<img id="img2" src="images/tc.png">
+				</div>
+
+				<div id="div_2">
+					<img id="img3" src="images/cc.png"><br><br>
+					<img id="img4" src="images/td.png">
+				</div>
+				<br>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Primary Page Layout 2
+   ================================================== -->
+<div class="about" id="a2">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 text-center">
-				<div class="subscribe-form">
-					<h3>Stay tuned and don't forget Sign up for latest Updates!</h3>
-					<form action="contact.php" method="post">
-						<input type="text" id="inform_email" placeholder="Enter your email and stay tuned!" onFocus="if(!this._haschanged){this.value=''};this._haschanged=true;" />
-						<input type="submit" value="Subscribe" id="in_submit" />
-					</form>
+				<br>
+				<h3 style="opacity: 0.7;color: darkgreen" >Covid-19 Deaths</h3><br>
+
+				<div id="div_3">
+					<img id="img5" style="padding-right: 110px" src="images/td1.png"><br><br>
 				</div>
+
+				<div id="div_4">
+					<img id="img6" src="images/dd.png"><br><br>
+				</div>
+				<br>
 			</div>
 		</div>
 	</div>
 </div>
-<div class="contact bg">
-	<div class="container">	
+
+<!-- Primary Page Layout 3
+	================================================== -->
+<div class="about" id="a3">
+	<div class="container">
 		<div class="row">
-			<div class="col-md-12 text-center">
-				<h1>Get In Touch</h1>
-			</div>			
-			<div class="col-md-12">
-				<form action="contact.php" method="post" id="contact_form" class="contact_form">
-					<fieldset>
-						<div class="col-sm-6"><input type="text" id="name" placeholder="Name" onFocus="if(!this._haschanged){this.value=''};this._haschanged=true;" /></div>
-						<div class="col-sm-6"><input type="text" id="email" placeholder="Email" onFocus="if(!this._haschanged){this.value=''};this._haschanged=true;" /></div>
-						<div class="col-xs-12"><textarea id="msg" cols="20" rows="3" placeholder="Message" onFocus="if(!this._haschanged){this.value=''};this._haschanged=true;"></textarea></div>
-						<div class="col-xs-12 text-center">
-						<input type="submit" value="Subscribe" id="contact_submit" />
-						</div>
-					</fieldset>
-				</form>
+			<div class="col-xs-12 text-center">
+				<br>
+				<h3 style="opacity: 0.7;color: darkgreen">Covid-19 Recovered Cases</h3><br>
+
+				<ul class="time">
+					<li>
+						<b><span style="color: black;font-size: 45px;opacity: 0.7">Recovered : 2,442,039 </span><br /></b>
+					</li>
+					<h3 style="opacity: 0.7;color: black">Recovered Cases in all over World</h3>
+
+				</ul>
 			</div>
 		</div>
 	</div>
 </div>
+
+<!-- Primary Page Layout 4
+	================================================== -->
+
+<div class="about" id="a4">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 text-center">
+				<br>
+				<h3 style="color: darkgreen">Covid-19 Latest News</h3><br>
+
+				<h4 style="opacity: 0.7; color: black">
+
+								692 new cases and 3 new deaths in <a href="https://www.worldometers.info/coronavirus/country/kuwait/">Kuwait [source]</a>.<br>
+								533 new cases and 53 new deaths in the <a href="https://www.worldometers.info/coronavirus/country/us/">United States [Source]</a>.<br>
+								897 new cases and 6 new deaths in <a href="https://www.worldometers.info/coronavirus/country/belarus/">Belarus [source]</a>.<br>
+								255 new cases and 1 new death in <a href="https://www.worldometers.info/coronavirus/country/oman/">Oman [source]</a>.<br>
+								13 new cases and 1 new death in <a href="https://www.worldometers.info/coronavirus/country/burkina-faso/">Burkina Faso [source]</a>.<br>
+								2 new cases in <a href="https://www.worldometers.info/coronavirus/country/slovenia/">Slovenia [source]</a>.<br>
+								21 new cases in <a href="https://www.worldometers.info/coronavirus/country/albania/">Albania [source]</a>.<br>
+								15 new cases in <a href="https://www.worldometers.info/coronavirus/country/malaysia/">Malaysia [source]</a>.<br>
+								1 new case in <a href="https://www.worldometers.info/coronavirus/country/china-hong-kong-sar/">China, Hong Kong SAR [source]</a>.<br>
+													1 new death in <a href="">Brunei Darussalam [source]</a>.<br></h4>
+
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
 <div class="footer">
 	<div class="container">
 		<div class="row">
